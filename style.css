@@ -1,0 +1,27 @@
+body{
+    background-color: #1e1d2b;
+}
+
+nav{
+    max-width: 900px;
+    margin:auto;
+    font-size: 20px;
+    margin-left: 20px;
+  
+}
+.menu-horizontal{
+    list-style: none;
+    display:flex;
+    justify-content:space-around;
+}
+.menu-horizontal >li>a{
+    display: block;
+    padding: 16px 20px;
+    color:white;
+    text-decoration: none;
+
+}
+.menu-horizontal >li:hover{
+background-color: green;
+}
+
